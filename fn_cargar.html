@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Editor y Noticia</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><strong>Pagina principal</strong></a>
+            <a href="fn_categorias.html">Categorias</a>
+            <a href="fn_suscripcion.html">Suscripcion</a>
+            <a href="fn_contacto.html">Contáctenos</a>
+        </nav>
+    </header>
+    <h2>Formulario de Editor y Noticia</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Información del Editor</legend>
+            <label for="nombre_editor">Nombre:</label>
+            <input type="text" id="nombre_editor" name="nombre_editor" required><br><br>
+            <label for="email_editor">Email:</label>
+            <input type="email" id="email_editor" name="email_editor" required><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Información de la Noticia</legend>
+            <label for="titulo_noticia">Título:</label>
+            <input type="text" id="titulo_noticia" name="titulo_noticia" required><br><br>
+            <label for="fecha_publicacion">Fecha de Publicación:</label>
+            <input type="date" id="fecha_publicacion" name="fecha_publicacion" required><br><br>
+            <label for="imagen_noticia">Imagen:</label><br>
+            <input type="file" name="archivo"><br><br>
+            <label for="contenido_noticia">Contenido:</label><br>
+            <textarea id="contenido_noticia" name="contenido_noticia" rows="4" cols="50" required></textarea><br><br>
+        </fieldset>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    <footer>
+        <nav>
+            <a href="index.html"><strong>Pagina principal</strong></a>
+            <a href="fn_categorias.html">Categorias</a>
+            <a href="fn_suscripcion.html">Suscripcion</a>
+            <a href="fn_contacto.html">Contáctenos</a>
+        </nav>
+    </footer>
+</body>
+</html>
